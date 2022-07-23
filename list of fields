@@ -1,0 +1,18 @@
+
+	"name":"Spiderman",
+	"email": "spiderman@gmail.com",
+	"password": "spider@123",
+	"password_confirmation": "spider@123",
+	"middlename": "Peter",
+	"surname": "Parker",
+	"address_line1": "15th Street, Queens",
+	"address_line2": "Near New york",
+	"country": "India",
+	"state": "Gujarat",
+	"city": "Ahmedabad",
+	"zipcode": "382424",
+	"phone": "99999999",
+	"birth_date": "0101/2001",
+	"gender": "Male",
+	"hobby":
+

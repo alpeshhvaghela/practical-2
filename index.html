@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="col-md-6 offset-md-3 my-5">
+            <form class="row g-3" onsubmit="return false">
+                <div class="headin text-center">
+                    <h2>Registration</h2>
+                </div>
+                <div class="col-md-6">
+                    <label for="name" class="form-label required">First Name</label>
+                    <input type="text" class="form-control" id="name">
+                    <div class="text-danger" id="name_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="middlename" class="form-label required">Middle Name</label>
+                    <input type="text" class="form-control" id="middlename">
+                    <div class="text-danger" id="middle_name_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="surname" class="form-label required">Last Name</label>
+                    <input type="text" class="form-control" id="surname">
+                    <div class="text-danger" id="surname_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label required">Email</label>
+                    <input type="text" class="form-control" id="email" autocomplete="off">
+                    <div class="text-danger" id="email_error"></div>
+
+                </div>
+                <div class="col-md-6">
+                    <label for="password" class="form-label required">Password</label>
+                    <input type="text" class="form-control" id="password">
+                    <div class="text-danger" id="password_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="password_confirmation" class="form-label required">Confirm Password</label>
+                    <input type="text" class="form-control" id="password_confirmation">
+                    <div class="text-danger" id="password_confirmation_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="address_line1" class="form-label required">Address Line 1</label>
+                    <input type="text" class="form-control" id="address_line1">
+                    <div class="text-danger" id="address_line1_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="address_line2" class="form-label required">Address Line 2</label>
+                    <input type="text" class="form-control" id="address_line2">
+                    <div class="text-danger" id="address_line2_error"></div>
+                </div>
+                <div class="col-md-4">
+                    <label for="country" class="form-label required">Country</label>
+                    <select id="country" class="form-select">
+                        <option value="" selected>Choose...</option>
+                        <option value="Japan">Japan</option>
+                        <option value="singapor">singapor</option>
+                        <option value="America">America</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="India">India</option>
+                    </select>
+                    <div class="text-danger" id="country_error"></div>
+                </div>
+                <div class="col-md-4">
+                    <label for="state" class="form-label required">State</label>
+                    <select id="state" class="form-select">
+                        <option value="" selected>Choose...</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Madhayapradesh">Madhayapradesh</option>
+                        <option value="Panjab">Panjab</option>
+                    </select>
+                    <div class="text-danger" id="state_error"></div>
+                </div>
+                <div class="col-md-4">
+                    <label for="city" class="form-label required">City</label>
+                    <input type="text" class="form-control" id="city">
+                    <div class="text-danger" id="city_error"></div>
+                </div>
+                <div class="col-md-4">
+                    <label for="zipcode" class="form-label required">Zipcode</label>
+                    <input type="text" class="form-control" id="zipcode" autocomplete="off">
+                    <div class="text-danger" id="zipcode_error"></div>
+                </div>
+                <div class="col-md-4">
+                    <label for="phone" class="form-label required">Mobile Number</label>
+                    <input type="text" class="form-control" id="phone">
+                    <div class="text-danger" id="phone_error"></div>
+                </div>
+                <div class="col-md-4 gy-4">
+                    <div class="headingtag">
+                        <label for="male" class="form-label required">Gender</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="male" id="male" value="male">
+                        <label class="form-check-label" for="Male">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="female" id="female" value="female">
+                        <label class="form-check-label" for="female">
+                            Female
+                        </label>
+                    </div>
+                    <div class="text-danger" id="gender_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <label for="birth_date" class="form-label required">Birthdate</label>
+                    <input type="date" class="form-control text-uppercase" id="birth_date">
+                    <div class="text-danger" id="birth_date_error"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="headingtag mb-2">
+                        <label for="Crickert" class="form-label required">Hobby</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="hobby" id="hobby" value="Crickert">
+                        <label class="form-check-label" for="inlineCheckbox1">Crickert</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="hobby" id="hobby" value="Hockey">
+                        <label class="form-check-label" for="inlineCheckbox2">Hockey</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="hobby" id="hobby" value="Volleyball">
+                        <label class="form-check-label" for="inlineCheckbox3">Volleyball</label>
+                    </div>
+                    <div class="text-danger" id="hobby_error"></div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary" onclick="validation()">Register</button>
+                    <div class="text-success" id="registration"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
